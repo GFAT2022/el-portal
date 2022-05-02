@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid; 
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+}
+
+.header {
+    width: 100%;
+    display: flex;   
+    background-color: rgb(210, 66, 66);
+}
+
+.logo {
+    width: 20%;
+}
+.img {
+    width: 100%;
+}
+
+.nav {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.nav-ul-li { 
+    list-style: none;
+    text-decoration:none;
+}
+
+.nav a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 2vw;
+    margin: 1vw;
+}
+
+.logoimagen {
+    display: flex;
+    width:5vw;
+}
+
+.main {
+    height:80vh ;
+    width: 100%;
+    background-image:url("Imagenes/foto9.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+}
+
+.main-text {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.main p {
+    width: 50%;    
+}
+
+.footer {
+    width:100% ;
+    background-color: rgb(210, 66, 66);
+}
+    
+.footer__ul{
+    width:100% ;
+    display: flex;       
+    justify-content:center ;
+    list-style: none;
+}
+    
+.footer a{
+    color: black;
+}
+
+.maingaleria {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+    
+.galeria__imagen {
+    width: 20vw;
+    padding: 0.5vh;
+}
+       
+.mainContacto__article{ 
+    width: 50%;
+}
+
+.mainContacto__article__list{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+
+
+
+
+@media (max-width:760px) {
+
+    .logoimagen {
+        width: 10vw;
+    }
+    .nav a {
+        margin: 1vw;
+        padding: 0.5vw;
+    }
+
+    .maingaleria{
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    .galeria__imagen{
+        width: 70vw;
+    }
+
+    .main p{
+        text-align: center;
+        align-items: center;
+        width: 100%;        
+    }
+
+}
+
+      
+  
+
+
+
+
+
+
+
+    
+ 
+
+
+
+
+    
+
+
+   
+
+
+    
+
+    
+
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+   
+   
+
+
+
+  
+
+
+ 
+
+
+
+
+
+   
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+    
+     
+     
+     
+
+
+
+     
+    
+
+
+
+
